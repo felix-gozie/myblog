@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.*.local
+
+# Dependencies
+/vendor
+/node_modules
+
+# SQLite database
+/database/*.sqlite
+
+# Logs
+/storage/logs
+*.log
+
+# Cache
+/bootstrap/cache
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
